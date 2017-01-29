@@ -95,12 +95,13 @@
 			isa = PBXGroup;
 			children = (
 				B25152571DC61BB900D65AE4 /* DataViewable.swift */,
-				B25152651DC6302000D65AE4 /* ReusableView.swift */,
-				B25152671DC6305300D65AE4 /* NibLoadableView.swift */,
-				B251527C1DC69B0F00D65AE4 /* NibLoadable.swift */,
 				B251527E1DC6AE7800D65AE4 /* JSONRepresentable.swift */,
+				B251527C1DC69B0F00D65AE4 /* NibLoadable.swift */,
+				B25152671DC6305300D65AE4 /* NibLoadableView.swift */,
+				B25152651DC6302000D65AE4 /* ReusableView.swift */,
 			);
 			name = Protocol;
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 		B259AF0B1DC601DF00D1FE31 = {
@@ -122,13 +123,13 @@
 		B259AF161DC601DF00D1FE31 /* CMS Remote Config */ = {
 			isa = PBXGroup;
 			children = (
-				B25152561DC60E8B00D65AE4 /* Protocol */,
-				B259AF301DC602D900D1FE31 /* Resources */,
+				B259AF2B1DC6029000D1FE31 /* Controller */,
+				B259AF2D1DC602A400D1FE31 /* Extensions */,
 				B259AF2F1DC602C100D1FE31 /* Main */,
 				B259AF2E1DC602AB00D1FE31 /* Models */,
-				B259AF2D1DC602A400D1FE31 /* Extensions */,
+				B25152561DC60E8B00D65AE4 /* Protocol */,
+				B259AF301DC602D900D1FE31 /* Resources */,
 				B259AF2C1DC6029700D1FE31 /* Views */,
-				B259AF2B1DC6029000D1FE31 /* Controller */,
 			);
 			path = "CMS Remote Config";
 			sourceTree = "<group>";
@@ -136,55 +137,59 @@
 		B259AF2B1DC6029000D1FE31 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				B201289B1DC6F04400A80C8B /* RCColorPickerView.swift */,
-				B259AF311DC6036900D1FE31 /* HTTPSConnection.swift */,
-				B259AF1B1DC601DF00D1FE31 /* DetailViewController.swift */,
-				B259AF191DC601DF00D1FE31 /* MasterViewController.swift */,
 				B25152591DC62ABE00D65AE4 /* ColorsTableViewCell.swift */,
 				B251525D1DC62ADA00D65AE4 /* ControllersTableViewCell.swift */,
-				B25152611DC62AF100D65AE4 /* LanguagesTableViewCell.swift */,
-				B251526B1DC6403F00D65AE4 /* EditObjectTableViewController.swift */,
-				B25152781DC694A700D65AE4 /* SlideUpPickerView.swift */,
-				B2DDBDE01DC7E3AC00C8D1BC /* RCTextView.swift */,
+				B259AF1B1DC601DF00D1FE31 /* DetailViewController.swift */,
 				B29F06AD1DCAA54F00EC786D /* DetailViewTextView.swift */,
+				B251526B1DC6403F00D65AE4 /* EditObjectTableViewController.swift */,
+				B259AF311DC6036900D1FE31 /* HTTPSConnection.swift */,
+				B25152611DC62AF100D65AE4 /* LanguagesTableViewCell.swift */,
+				B259AF191DC601DF00D1FE31 /* MasterViewController.swift */,
+				B201289B1DC6F04400A80C8B /* RCColorPickerView.swift */,
+				B2DDBDE01DC7E3AC00C8D1BC /* RCTextView.swift */,
+				B25152781DC694A700D65AE4 /* SlideUpPickerView.swift */,
 			);
 			name = Controller;
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		B259AF2C1DC6029700D1FE31 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				B259AF221DC601DF00D1FE31 /* LaunchScreen.storyboard */,
 				B251525A1DC62ABE00D65AE4 /* ColorsTableViewCell.xib */,
 				B251525E1DC62ADA00D65AE4 /* ControllersTableViewCell.xib */,
 				B25152621DC62AF100D65AE4 /* LanguagesTableViewCell.xib */,
+				B259AF221DC601DF00D1FE31 /* LaunchScreen.storyboard */,
 				B259AF1D1DC601DF00D1FE31 /* Main.storyboard */,
-				B251527A1DC694B800D65AE4 /* SlideUpPickerView.xib */,
 				B201289D1DC6F05500A80C8B /* RCColorPickerView.xib */,
 				B2DDBDDE1DC7E24B00C8D1BC /* RCTextView.xib */,
+				B251527A1DC694B800D65AE4 /* SlideUpPickerView.xib */,
 			);
 			name = Views;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		B259AF2D1DC602A400D1FE31 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				B25152691DC630B000D65AE4 /* UITableView+Ext.swift */,
 				B251526D1DC645E500D65AE4 /* Dictionary+Ext.swift */,
 				B2A968B01DCAA02900FD1BF7 /* Float+Ext.swift */,
+				B25152691DC630B000D65AE4 /* UITableView+Ext.swift */,
 			);
 			name = Extensions;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		B259AF2E1DC602AB00D1FE31 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				B25152541DC6099900D65AE4 /* Config.swift */,
-				B251526F1DC64D1D00D65AE4 /* RCImageViewST.swift */,
 				B2DDBDDC1DC7DDCD00C8D1BC /* ConfigList.swift */,
+				B251526F1DC64D1D00D65AE4 /* RCImageViewST.swift */,
 				B2DDBDE21DC800B600C8D1BC /* RCObjectPicker.swift */,
 			);
 			name = Models;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		B259AF2F1DC602C100D1FE31 /* Main */ = {
@@ -194,6 +199,7 @@
 				B259AF251DC601DF00D1FE31 /* Info.plist */,
 			);
 			name = Main;
+			path = Main;
 			sourceTree = "<group>";
 		};
 		B259AF301DC602D900D1FE31 /* Resources */ = {
@@ -202,6 +208,7 @@
 				B259AF201DC601DF00D1FE31 /* Assets.xcassets */,
 			);
 			name = Resources;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -319,6 +326,7 @@
 				B259AF1E1DC601DF00D1FE31 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		B259AF221DC601DF00D1FE31 /* LaunchScreen.storyboard */ = {
@@ -327,6 +335,7 @@
 				B259AF231DC601DF00D1FE31 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -430,7 +439,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4EU4PGMLU9;
-				INFOPLIST_FILE = "CMS Remote Config/Info.plist";
+				INFOPLIST_FILE = "CMS Remote Config/Main/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "barnard.com.CMS-Remote-Config";
@@ -444,7 +453,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4EU4PGMLU9;
-				INFOPLIST_FILE = "CMS Remote Config/Info.plist";
+				INFOPLIST_FILE = "CMS Remote Config/Main/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "barnard.com.CMS-Remote-Config";
